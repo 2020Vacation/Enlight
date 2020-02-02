@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:src="@drawable/ic_undraw_quitting_time_dm8t"/>
+
+
+    <ProgressBar
+        android:layout_marginTop="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_dbload"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquareb"
+        android:text="외출할 준비 되셨나요?"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

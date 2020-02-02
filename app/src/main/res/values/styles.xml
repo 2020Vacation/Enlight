@@ -8,4 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:ambientShadowAlpha">0.05</item>
+        <item name="android:spotShadowAlpha">0.05</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/productb</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#000000</item>
+        <item name="android:colorForeground">#adb5bd</item>
+        <item name="android:fontFamily">@font/productr</item>
+    </style>
+
 </resources>
